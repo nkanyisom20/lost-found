@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Log In</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="register.html">Register</a> |
+      <a href="index.html">Log In</a> |
+    </header>
+    <form class="" action="include_lf/login.php" method="post">
+      <label for="student_no">Student No.</label>
+      <input type="text" name="student_no" value="">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password" value="">
+      <br>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
+  </body>
+  <footer>
+    <?php
+      include 'include_lf/footer.php';
+     ?>
+  </footer>
+</html>
